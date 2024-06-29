@@ -1,4 +1,4 @@
-package com.techelevator.security;
+package com.indoor.security;
 
 import org.springframework.security.core.AuthenticationException;
 

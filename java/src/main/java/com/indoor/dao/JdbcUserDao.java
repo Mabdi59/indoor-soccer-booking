@@ -1,8 +1,8 @@
-package com.techelevator.dao;
+package com.indoor.dao;
 
-import com.techelevator.exception.DaoException;
-import com.techelevator.model.RegisterUserDto;
-import com.techelevator.model.User;
+import com.indoor.exception.DaoException;
+import com.indoor.model.RegisterUserDto;
+import com.indoor.model.User;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.jdbc.CannotGetJdbcConnectionException;
 import org.springframework.jdbc.core.JdbcTemplate;

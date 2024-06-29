@@ -1,4 +1,4 @@
-package com.techelevator.model;
+package com.indoor.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.HashSet;

@@ -7,7 +7,9 @@ SELECT pg_terminate_backend(pid)
 FROM pg_stat_activity
 WHERE datname = 'indoor_db';
 
-DROP DATABASE indoor_db;
+-- Drop the database if it exists
+DROP DATABASE IF EXISTS indoor_db;
 
-DROP USER indoor_owner;
-DROP USER indoor_appuser;
+-- Drop users if they exist
+DROP USER IF EXISTS indoor_owner;
+DROP USER IF EXISTS indoor_appuser;

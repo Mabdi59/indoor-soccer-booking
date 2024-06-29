@@ -1,13 +1,13 @@
-package com.techelevator.controller;
+package com.indoor.controller;
 
-import com.techelevator.dao.UserDao;
-import com.techelevator.exception.DaoException;
-import com.techelevator.model.LoginDto;
-import com.techelevator.model.LoginResponseDto;
-import com.techelevator.model.RegisterUserDto;
-import com.techelevator.model.User;
-import com.techelevator.security.jwt.JWTFilter;
-import com.techelevator.security.jwt.TokenProvider;
+import com.indoor.dao.UserDao;
+import com.indoor.exception.DaoException;
+import com.indoor.model.LoginDto;
+import com.indoor.model.LoginResponseDto;
+import com.indoor.model.RegisterUserDto;
+import com.indoor.model.User;
+import com.indoor.security.jwt.JWTFilter;
+import com.indoor.security.jwt.TokenProvider;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

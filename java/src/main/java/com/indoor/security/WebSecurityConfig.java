@@ -1,7 +1,7 @@
-package com.techelevator.security;
+package com.indoor.security;
 
-import com.techelevator.security.jwt.JWTConfigurer;
-import com.techelevator.security.jwt.TokenProvider;
+import com.indoor.security.jwt.JWTConfigurer;
+import com.indoor.security.jwt.TokenProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
